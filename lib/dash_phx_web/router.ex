@@ -18,6 +18,7 @@ defmodule DashPhxWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+    get "/capture.ppm", PageController, :capture
   end
 
   # Other scopes may use custom stacks.
